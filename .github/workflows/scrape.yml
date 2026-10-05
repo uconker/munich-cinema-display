@@ -1,0 +1,28 @@
+name: Scrape Munich cinema program
+
+on:
+  schedule:
+    - cron: "30 3 * * *"     # ~05:30 Munich time (summer) - fresh data before the day starts
+    - cron: "30 11 * * *"    # ~13:30 - picks up late changes
+  workflow_dispatch: {}      # "Run workflow" button
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scrape Kinoheld
+        run: python scraper/scrape.py --out data/cinemas.txt
+      - name: Commit if changed
+        run: |
+          git config user.name "cinema-bot"
+          git config user.email "cinema-bot@users.noreply.github.com"
+          git add data/cinemas.txt
+          git diff --cached --quiet || git commit -m "Update cinema data $(date -u +%F\ %H:%M)"
+          git push
