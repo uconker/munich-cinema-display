@@ -1,5 +1,5 @@
 KINO1
-gen=2026-10-06T00:31
+gen=2026-10-06T00:37
 d0=2026-10-06
 d1=2026-10-07
 C|ABC Kino
@@ -11,7 +11,7 @@ C|Cincinnati Kino
 C|Cinema Filmtheater
 C|CinemaxX
 C|City Kino
-C|der tu film
+C|Der TU Film
 C|Filmmuseum
 C|Gloria-Palast
 C|Leopold Kino
