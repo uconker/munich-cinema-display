@@ -1,0 +1,157 @@
+KINO1
+gen=2026-10-06T00:00
+d0=2026-10-06
+d1=2026-10-07
+C|ABC Kino
+C|Arena Filmtheater
+C|ARRI-Kino
+C|astor@CINEMA LOUNGE
+C|Cadillac Veranda Kino
+C|CinemaxX
+C|City Kino
+C|Filmmuseum
+C|Gloria-Palast
+C|Leopold Kino
+C|Mathäser Filmpalast
+C|Monopol Kino
+C|Museum Lichtspiele
+C|Neues Maxim Kino
+C|Rio Filmpalast
+C|Royal Filmpalast
+C|Studio Isabella
+C|Theatiner Film
+C|Werkstattkino
+F|Albrecht Weinberg - Es ist immer in meinem Kopf|12
+F|Bagger Drama|12
+F|BAGGER DRAMA - Max-Ophüls-Preis Beste Regie!|255
+F|Bibi Blocksberg - Die total verhexte Zeitreise|0
+F|Corpus Delicti|255
+F|Coyote vs. ACME|6
+F|Das geträumte Abenteuer|12
+F|Das gewisse Etwas|6
+F|Die Odyssee|12
+F|Die Schwindler|12
+F|Digger|12
+F|Emil und die Detektive|6
+F|Finding Emily|6
+F|Insidious: Out of the Further|16
+F|Live-Kino-Podcast "Never Enough" mit Doris Dörrie|255
+F|Midnight Movie|16
+F|Mutiny|18
+F|Of Mud and Blood|12
+F|Of Mud and Blood: Kongo - im Rausch der Hoffnung|255
+F|Pans Labyrinth|16
+F|Paw Patrol: Der Dino Film|0
+F|Practical Magic 2 - Zauberhafte Schwestern|12
+F|Primetime|255
+F|Resident Evil|16
+F|Shaun das Schaf - Spuk im Kürbisfeld|0
+F|Spa Weekend|12
+F|Spider-Man: Brand New Day|12
+F|Steckerlfischfiasko|12
+F|Vaterland|0
+F|Verity - Dunkle Geheimnisse|12
+F|Über Unterbiberger - vom Woid in die Welt|0
+S|0|10|5|780|0
+S|0|10|7|795|0
+S|0|2|4|810|0
+S|0|2|28|825|0
+S|0|10|11|825|0
+S|0|10|26|825|0
+S|0|0|28|840|0
+S|0|9|3|840|0
+S|0|10|29|840|0
+S|0|12|11|840|0
+S|0|12|21|840|1
+S|0|14|24|840|0
+S|0|10|10|855|0
+S|0|10|27|855|0
+S|0|5|20|870|0
+S|0|5|29|870|0
+S|0|6|6|870|0
+S|0|12|24|870|1
+S|0|5|10|880|0
+S|0|13|1|940|0
+S|0|11|22|950|2
+S|0|11|12|960|2
+S|0|17|0|960|0
+S|0|8|27|990|0
+S|0|10|8|990|0
+S|0|10|29|990|0
+S|0|16|30|990|0
+S|0|15|5|1005|0
+S|0|5|29|1020|0
+S|0|10|26|1020|0
+S|0|4|27|1065|0
+S|0|18|17|1065|0
+S|0|18|18|1065|0
+S|0|12|26|1075|1
+S|0|3|25|1080|0
+S|0|11|10|1080|2
+S|0|12|10|1080|1
+S|0|1|10|1095|2
+S|0|2|10|1095|0
+S|0|9|14|1140|0
+S|0|10|4|1170|0
+S|0|10|29|1170|0
+S|0|10|10|1185|0
+S|0|5|26|1200|0
+S|0|10|19|1215|0
+S|0|11|19|1230|2
+S|0|17|2|1230|0
+S|0|7|9|1260|0
+S|0|10|13|1290|0
+S|0|10|16|1335|0
+S|0|10|23|1365|0
+S|1|10|15|30|0
+S|1|10|5|780|0
+S|1|10|7|795|0
+S|1|2|4|810|0
+S|1|2|28|825|0
+S|1|10|11|825|0
+S|1|10|26|825|0
+S|1|0|28|840|0
+S|1|9|3|840|0
+S|1|10|29|840|0
+S|1|12|11|840|0
+S|1|12|21|840|1
+S|1|14|24|840|0
+S|1|10|10|855|0
+S|1|10|27|855|0
+S|1|5|20|870|0
+S|1|5|29|870|0
+S|1|6|6|870|0
+S|1|12|24|870|1
+S|1|5|10|880|0
+S|1|13|1|940|0
+S|1|11|22|950|2
+S|1|11|12|960|2
+S|1|17|0|960|0
+S|1|8|27|990|0
+S|1|10|8|990|0
+S|1|10|29|990|0
+S|1|16|30|990|0
+S|1|15|5|1005|0
+S|1|5|29|1020|0
+S|1|10|26|1020|0
+S|1|4|27|1065|0
+S|1|18|17|1065|0
+S|1|18|18|1065|0
+S|1|12|26|1075|1
+S|1|3|25|1080|0
+S|1|11|10|1080|2
+S|1|12|10|1080|1
+S|1|1|10|1095|2
+S|1|2|10|1095|0
+S|1|9|14|1140|0
+S|1|10|4|1170|0
+S|1|10|29|1170|0
+S|1|10|10|1185|0
+S|1|5|26|1200|0
+S|1|10|19|1215|0
+S|1|11|19|1230|2
+S|1|17|2|1230|0
+S|1|7|9|1260|0
+S|1|10|13|1290|0
+S|1|10|16|1335|0
+S|1|10|23|1365|0
