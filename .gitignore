@@ -1,0 +1,5 @@
+board/src/secrets.h
+board/.pio/
+test/host_test
+test/gesture_test
+__pycache__/
