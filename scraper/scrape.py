@@ -164,10 +164,16 @@ def main():
     ap.add_argument("--out", default=os.path.join(os.path.dirname(__file__), "..", "data", "cinemas.txt"))
     ap.add_argument("--input"); ap.add_argument("--suburbs", action="store_true")
     ap.add_argument("--today", help="override date YYYY-MM-DD (tests)")
+    ap.add_argument("--list-cinemas", action="store_true", help="print raw -> cleaned cinema names and exit")
     a = ap.parse_args()
     now = datetime.now(TZ)
     today = datetime.strptime(a.today, "%Y-%m-%d").date() if a.today else now.date()
     shows = json.load(open(a.input))["data"]["programShows"]["data"] if a.input else fetch_all()
+    if a.list_cinemas:
+        raw = sorted({(s.get("cinema") or {}).get("name") or "" for s in shows}, key=str.casefold)
+        for r in raw:
+            print(f"{r!r:45} -> {cinema_name(r)!r}")
+        return
     d, cinemas, films, rows = build(shows, today, a.suburbs)
     if len(rows) < MIN_SHOWS:
         print(f"ERROR: only {len(rows)} shows (< {MIN_SHOWS}); keeping the old file", file=sys.stderr)
