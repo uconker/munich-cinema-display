@@ -34,6 +34,7 @@ PUNCT = {"–": "-", "—": "-", "‒": "-", "‘": "'", "’": "'", "‚": ",",
 def latin1_clean(s: str) -> str:
     """The OLED font covers Latin-1 only (umlauts, ß ok). Replace what it can't draw."""
     s = "".join(PUNCT.get(c, c) for c in s)
+    s = re.sub(r"^(sneak preview)\b.*$", "Sneak Preview", s, flags=re.I)
     s = unicodedata.normalize("NFC", s)
     out = []
     for c in s:
@@ -44,9 +45,13 @@ def latin1_clean(s: str) -> str:
             out.append(base or "?")
     return re.sub(r"\s+", " ", "".join(out)).strip()
 
-ACRONYMS = {"ABC", "OV", "OMU", "USA", "TV", "DDR", "ARRI", "FBI", "CIA", "UK", "KZ", "II", "III", "IV"}
+ACRONYMS = {"TU", "ABC", "OV", "OMU", "USA", "TV", "DDR", "ARRI", "FBI", "CIA", "UK", "KZ", "II", "III", "IV"}
 SMALL = {"und", "der", "die", "das", "den", "dem", "des", "im", "in", "vom", "von", "mit", "zu", "zum",
          "zur", "am", "an", "auf", "für", "ein", "eine", "of", "and", "the", "to", "a", "in", "on", "or"}
+
+def _cap_word(w: str) -> str:
+    wl = w.lower()
+    return re.sub(r"(^|[-(\"/:])([a-zäöüß])", lambda m: m.group(1) + m.group(2).upper(), wl)
 
 def smart_case(s: str) -> str:
     """ALL CAPS -> Title Case (acronyms stay upper, small words lower). Mixed-case input is untouched."""
@@ -60,15 +65,18 @@ def smart_case(s: str) -> str:
         elif i > 0 and core.casefold() in SMALL:
             out.append(w.lower())
         else:
-            out.append(re.sub(r"[A-Za-zÄÖÜäöüß]+", lambda m: m.group(0)[:1] + m.group(0)[1:].lower(), w))
+            out.append(_cap_word(w))
     return " ".join(out)
 
 def film_key(title: str) -> str:
-    return re.sub(r"[^0-9a-zäöüß]+", "", title.casefold())
+    t = re.sub(r"\([^)]*\)", "", title)            # "Pans Labyrinth (Best of Cinema)" == "Pans Labyrinth"
+    return re.sub(r"[^0-9a-zäöüß]+", "", t.casefold())
 
 def cinema_name(raw: str) -> str:
     n = latin1_clean(raw)
     n = smart_case(n)
+    if n.islower():
+        n = " ".join(w.upper() if w.upper() in ACRONYMS else w.capitalize() for w in n.split(" "))
     n = re.sub(r"\s+München$", "", n, flags=re.I)
     return n
 
@@ -129,7 +137,8 @@ def build(shows: list, today, suburbs=False):
     best = {}
     for r in rows:
         k = film_key(r[3])
-        if k not in best or (best[k].isupper() and not r[3].isupper()):
+        if k not in best or (best[k].isupper() and not r[3].isupper()) or \
+           (best[k].isupper() == r[3].isupper() and len(r[3]) < len(best[k])):
             best[k] = r[3]
     films = {}
     for r in rows:
