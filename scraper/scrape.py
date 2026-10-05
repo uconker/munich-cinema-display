@@ -74,10 +74,10 @@ def film_key(title: str) -> str:
 
 def cinema_name(raw: str) -> str:
     n = latin1_clean(raw)
+    n = re.sub(r"\s+München$", "", n, flags=re.I)      # strip the city first, so the case rules see the bare name
     n = smart_case(n)
-    if n.islower():
+    if not any(c.isupper() for c in n):               # e.g. "der tu film" -> "Der TU Film"
         n = " ".join(w.upper() if w.upper() in ACRONYMS else w.capitalize() for w in n.split(" "))
-    n = re.sub(r"\s+München$", "", n, flags=re.I)
     return n
 
 def post(payload: dict) -> dict:
