@@ -1,5 +1,5 @@
 KINO1
-gen=2026-10-06T00:37
+gen=2026-10-06T12:38
 d0=2026-10-06
 d1=2026-10-07
 C|ABC Kino
@@ -76,7 +76,7 @@ F|Pans Labyrinth|16
 F|Paw Patrol: Der Dino Film|0
 F|Practical Magic 2 - Zauberhafte Schwestern|12
 F|Pressure|12
-F|Primetime|255
+F|Primetime|12
 F|Resident Evil|16
 F|Shaun das Schaf - Spuk im Kürbisfeld|0
 F|Sneak Preview|16
@@ -393,7 +393,7 @@ S|1|18|64|1080|0
 S|1|19|22|1080|0
 S|1|14|11|1090|2
 S|1|16|8|1090|0
-S|1|1|35|1095|2
+S|1|1|35|1095|0
 S|1|5|64|1095|0
 S|1|23|25|1095|0
 S|1|0|64|1100|0
