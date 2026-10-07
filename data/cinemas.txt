@@ -1,5 +1,5 @@
 KINO1
-gen=2026-10-07T12:29
+gen=2026-10-07T19:56
 d0=2026-10-07
 d1=2026-10-08
 C|ABC Kino
@@ -40,7 +40,7 @@ F|Das geträumte Abenteuer|12
 F|Das gewisse Etwas|6
 F|Der Anhalter|255
 F|Die Odyssee|12
-F|Die vergessene Insel|6
+F|Die vergessene Insel|12
 F|Digger|12
 F|Eine Krankheit wie ein Gedicht|12
 F|Eiserne Wildnis - Heart of the Beast|12
@@ -79,7 +79,7 @@ F|Spaziergang nach Syrakus|6
 F|Spider-Man: Brand New Day|12
 F|Staatsschutz|12
 F|Steckerlfischfiasko|12
-F|Sternbrücke Forever|255
+F|Sternbrücke Forever|6
 F|The Invite|12
 F|The Social Reckoning|12
 F|The Uprising - Für die Freiheit|16
@@ -144,8 +144,6 @@ S|0|12|44|960|0
 S|0|13|47|960|0
 S|0|14|21|960|0
 S|0|15|8|960|1
-S|0|16|0|960|0
-S|0|16|10|970|0
 S|0|1|57|975|0
 S|0|13|12|975|0
 S|0|23|57|975|0
@@ -200,7 +198,7 @@ S|0|18|57|1080|0
 S|0|19|20|1080|0
 S|0|14|8|1090|2
 S|0|16|4|1090|0
-S|0|1|32|1095|2
+S|0|1|32|1095|0
 S|0|5|57|1095|0
 S|0|23|23|1095|0
 S|0|0|57|1100|0
