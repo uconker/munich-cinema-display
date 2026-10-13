@@ -1,5 +1,5 @@
 KINO1
-gen=2026-10-13T12:54
+gen=2026-10-13T20:27
 d0=2026-10-13
 d1=2026-10-14
 C|ABC Kino
@@ -64,7 +64,7 @@ F|Interstellar|12
 F|KitKatClub: Kinks of Berlin|18
 F|Lalka|12
 F|Linkin Park: Unshatter|12
-F|LIVE PODCAST MIT VOLKER SCHLÖNDORFF UND ÜBERRASCHUNGSFILM D, keine Angabe|255
+F|Live-Kino-Podcast "Never Enough" mit Regisseur Volker Schlöndorff und Überraschungsfilm im Anschluss|255
 F|Lügen über meine Mutter|12
 F|Mania - Weltpremiere - Mit Gästen|255
 F|Meeting the Buddha|6
@@ -96,7 +96,6 @@ F|Verity - Dunkle Geheimnisse|12
 F|Von Scham und Geld|12
 F|Watching People Watching Birds|0
 F|Whistleblower|12
-S|0|16|38|630|0
 S|0|11|56|780|0
 S|0|13|24|780|0
 S|0|2|64|795|0
@@ -147,7 +146,6 @@ S|0|22|2|960|0
 S|0|23|8|960|0
 S|0|11|65|975|0
 S|0|13|18|975|0
-S|0|16|64|980|0
 S|0|20|64|980|0
 S|0|1|64|990|0
 S|0|13|20|990|0
@@ -209,7 +207,7 @@ S|0|14|7|1100|2
 S|0|20|25|1100|0
 S|0|10|28|1110|0
 S|0|13|65|1110|0
-S|0|14|42|1110|0
+S|0|14|42|1110|2
 S|0|15|49|1110|1
 S|0|22|42|1110|2
 S|0|1|38|1120|0
@@ -247,7 +245,7 @@ S|0|8|31|1215|0
 S|0|12|0|1215|0
 S|0|12|38|1215|0
 S|0|13|18|1215|0
-S|0|14|31|1215|0
+S|0|14|31|1215|2
 S|0|15|33|1215|1
 S|0|15|59|1215|1
 S|0|17|56|1215|0
