@@ -1,5 +1,5 @@
 KINO1
-gen=2026-10-15T10:30
+gen=2026-10-15T17:42
 d0=2026-10-15
 d1=2026-10-16
 C|ABC Kino
@@ -65,7 +65,7 @@ F|Lügen über meine Mutter|12
 F|Matloob Aelian|12
 F|Meeting the Buddha|6
 F|Minions & Monster|6
-F|Monster Mia|6
+F|Monster Mia|0
 F|Naza|12
 F|Obsession - Du sollst mich lieben|16
 F|Ponyo - Das große Abenteuer am Meer|6
@@ -77,10 +77,10 @@ F|Sacrifice|12
 F|Shaun das Schaf - Spuk im Kürbisfeld|0
 F|Silvesterparty 2026|255
 F|Sinn und Sinnlichkeit|6
-F|Soy (türk.)|255
+F|Soy|16
 F|Spider-Man: Brand New Day|12
 F|Steckerlfischfiasko|12
-F|Sternbrücke Forever|255
+F|Sternbrücke Forever|6
 F|Street Fighter|12
 F|The Rocky Horror Picture Show|12
 F|The Social Reckoning|12
@@ -216,7 +216,7 @@ S|0|12|62|1110|0
 S|0|13|45|1110|2
 S|0|1|40|1125|2
 S|0|8|61|1125|0
-S|0|13|40|1125|2
+S|0|13|40|1125|0
 S|0|6|50|1140|0
 S|0|9|10|1140|0
 S|0|12|60|1140|0
@@ -411,7 +411,7 @@ S|1|8|3|1110|0
 S|1|12|62|1110|0
 S|1|14|13|1110|1
 S|1|15|35|1110|0
-S|1|1|40|1125|0
+S|1|1|40|1125|2
 S|1|8|61|1125|0
 S|1|13|40|1125|2
 S|1|12|17|1130|0
