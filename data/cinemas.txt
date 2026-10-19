@@ -1,5 +1,5 @@
 KINO1
-gen=2026-10-19T11:11
+gen=2026-10-19T19:40
 d0=2026-10-19
 d1=2026-10-20
 C|ABC Kino
@@ -37,7 +37,7 @@ F|Bibi Blocksberg - Die total verhexte Zeitreise|0
 F|Call Me Queen|12
 F|Camouflage Premiere mit Gespräch am 8.10. im Monopol|12
 F|Chopin - Eine Sonate in Paris|12
-F|Corpus Delicti|12
+F|Corpus Delicti|255
 F|Coyote vs. ACME|6
 F|Das Ding mit Federn|16
 F|Das gewisse Etwas|6
@@ -51,7 +51,7 @@ F|Eine Krankheit wie ein Gedicht|12
 F|Eiserne Wildnis - Heart of the Beast|12
 F|Emil und die Detektive|6
 F|Fortunella|255
-F|Frau Winkler verlässt das Haus|12
+F|Frau Winkler verlässt das Haus|6
 F|Heimsuchung - Eine Jahrhundertgeschichte|12
 F|Hirten|12
 F|Hope|16
@@ -130,14 +130,12 @@ S|0|7|22|900|0
 S|0|17|60|915|0
 S|0|19|24|915|0
 S|0|13|50|920|0
-S|0|20|24|920|0
 S|0|0|25|930|0
 S|0|8|3|930|0
 S|0|12|3|930|0
 S|0|13|6|930|0
 S|0|17|3|930|0
 S|0|19|60|930|0
-S|0|20|25|940|0
 S|0|22|25|940|0
 S|0|8|25|945|0
 S|0|13|22|945|0
