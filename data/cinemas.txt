@@ -1,5 +1,5 @@
 KINO1
-gen=2026-11-11T12:20
+gen=2026-11-11T19:50
 d0=2026-11-11
 d1=2026-11-12
 C|ABC Kino
@@ -40,7 +40,7 @@ F|Die Blutgräfin|12
 F|Die Cowboys|16
 F|Die Teufel - Director's Cut|255
 F|Drei Kameradinnen|12
-F|Ebenezer: Eine Weihnachtsgeschichte|12
+F|Ebenezer - Eine Weihnachtsgeschichte|12
 F|Ein Talent fürs Morden|12
 F|Eine letzte Runde / Le città di pianura|255
 F|Emil und die Detektive|6
